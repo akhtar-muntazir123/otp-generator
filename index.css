@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .container{
+    display: flex;
+    align-items: center;
+    margin: 9%;
+    justify-content: center;
+} 
+body{
+    background-color:#d7ccff;
+}
+.box{
+    background: white;
+    position: relative;
+    width: 400px;
+    height:200px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 12px;
+}
+.box p{
+    font-size: 2em ;
+    font-weight: 700;
+    color: rgb(123, 120, 120);
+}
+.box button{
+    height: 45px;
+    background:#8a2be2;
+    width: 160px;
+    font-size: 1.3em;
+    border-radius: 10px;
+    color: white;
+}
